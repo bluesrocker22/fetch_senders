@@ -2,7 +2,7 @@
 
 This script is created to fetch all sender addresses from IMAP folder from specified period
 
-Necessary arguments needs to specified in config.py file
+Necessary arguments needs to be specified in config.py file
 
 This script is fetching addresses from the single 'From' field of every e-mail in filder and split this information to 2 different columns in the csv-file
 
