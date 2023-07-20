@@ -4,10 +4,10 @@ This script is created to fetch all sender addresses from IMAP folder from speci
 
 Necessary arguments needs to specified in config.py file
 
-Script fetch addresses from the single 'From' header of e-mail and split this information to 2 columns in csv
+This script is fetching addresses from the single 'From' field of every e-mail in filder and split this information to 2 different columns in the csv-file
 
-**Сompletely identical** lines will be ignored in it's repeats
+* **Сompletely identical** fields will be ignored when they will be repeating
 
-Duplicate e-mail addresses **with different name will not be ignored**
+* Duplicating e-mail addresses **with different name** in field **will not be ignored**
 
 *This script was created with big help from ChatGPT bot :)*
